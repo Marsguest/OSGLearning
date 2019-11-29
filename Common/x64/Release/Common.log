@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\各类工作文件\ssz\毕业设计\项目\test\Common\main.cpp(3,13): warning C4326: “main”的返回类型应为“int”而非“void”
+  Common.vcxproj -> D:\各类工作文件\ssz\毕业设计\项目\test\x64\Release\Common.lib

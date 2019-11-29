@@ -1,0 +1,72 @@
+﻿  main.cpp
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) protected: virtual __cdecl osgGA::GUIEventHandler::~GUIEventHandler(void)" (__imp_??1GUIEventHandler@osgGA@@MEAA@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual bool __cdecl osgGA::GUIEventHandler::handle(class osgGA::Event *,class osg::Object *,class osg::NodeVisitor *)" (__imp_?handle@GUIEventHandler@osgGA@@UEAA_NPEAVEvent@2@PEAVObject@osg@@PEAVNodeVisitor@5@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual void __cdecl osgGA::EventHandler::event(class osg::NodeVisitor *,class osg::Drawable *)" (__imp_?event@EventHandler@osgGA@@UEAAXPEAVNodeVisitor@osg@@PEAVDrawable@4@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual void __cdecl osgGA::EventHandler::operator()(class osg::Node *,class osg::NodeVisitor *)" (__imp_??REventHandler@osgGA@@UEAAXPEAVNode@osg@@PEAVNodeVisitor@3@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl osgGA::TrackballManipulator::TrackballManipulator(int)" (__imp_??0TrackballManipulator@osgGA@@QEAA@H@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl osgUtil::Optimizer::optimize(class osg::Node *)" (__imp_?optimize@Optimizer@osgUtil@@QEAAXPEAVNode@osg@@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl osgUtil::Optimizer::~Optimizer(void)" (__imp_??1Optimizer@osgUtil@@UEAA@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl osgUtil::Optimizer::Optimizer(void)" (__imp_??0Optimizer@osgUtil@@QEAA@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl osgGA::TrackballManipulator::`vbase destructor'(void)" (__imp_??_DTrackballManipulator@osgGA@@QEAAXXZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual char const * __cdecl osgGA::TrackballManipulator::className(void)const " (__imp_?className@TrackballManipulator@osgGA@@UEBAPEBDXZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual char const * __cdecl osg::Group::className(void)const " (__imp_?className@Group@osg@@UEBAPEBDXZ)
+      "__declspec(dllimport) public: virtual char const * __cdecl osgViewer::Viewer::className(void)const " (__imp_?className@Viewer@osgViewer@@UEBAPEBDXZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual char const * __cdecl osgGA::TrackballManipulator::libraryName(void)const " (__imp_?libraryName@TrackballManipulator@osgGA@@UEBAPEBDXZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual char const * __cdecl osg::Group::libraryName(void)const " (__imp_?libraryName@Group@osg@@UEBAPEBDXZ)
+      "__declspec(dllimport) public: virtual char const * __cdecl osgViewer::Viewer::libraryName(void)const " (__imp_?libraryName@Viewer@osgViewer@@UEBAPEBDXZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual bool __cdecl osgGA::TrackballManipulator::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@TrackballManipulator@osgGA@@UEBA_NPEBVObject@osg@@@Z)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual bool __cdecl osg::Group::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@Group@osg@@UEBA_NPEBVObject@2@@Z)
+      "__declspec(dllimport) public: virtual bool __cdecl osgViewer::Viewer::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@Viewer@osgViewer@@UEBA_NPEBVObject@osg@@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgGA::TrackballManipulator::clone(class osg::CopyOp const &)const " (__imp_?clone@TrackballManipulator@osgGA@@UEBAPEAVObject@osg@@AEBVCopyOp@4@@Z)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual class osg::Object * __cdecl osg::Group::clone(class osg::CopyOp const &)const " (__imp_?clone@Group@osg@@UEBAPEAVObject@2@AEBVCopyOp@2@@Z)
+      "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgViewer::Viewer::clone(class osg::CopyOp const &)const " (__imp_?clone@Viewer@osgViewer@@UEBAPEAVObject@osg@@AEBVCopyOp@4@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgGA::TrackballManipulator::cloneType(void)const " (__imp_?cloneType@TrackballManipulator@osgGA@@UEBAPEAVObject@osg@@XZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual class osg::Object * __cdecl osg::Group::cloneType(void)const " (__imp_?cloneType@Group@osg@@UEBAPEAVObject@2@XZ)
+      "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgViewer::Viewer::cloneType(void)const " (__imp_?cloneType@Viewer@osgViewer@@UEBAPEAVObject@osg@@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual bool __cdecl osgGA::GUIEventHandler::handle(class osgGA::GUIEventAdapter const &,class osgGA::GUIActionAdapter &,class osg::Object *,class osg::NodeVisitor *)" (__imp_?handle@GUIEventHandler@osgGA@@UEAA_NAEBVGUIEventAdapter@2@AEAVGUIActionAdapter@2@PEAVObject@osg@@PEAVNodeVisitor@6@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual char const * __cdecl osgGA::GUIEventHandler::className(void)const " (__imp_?className@GUIEventHandler@osgGA@@UEBAPEBDXZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual char const * __cdecl osg::Group::className(void)const " (__imp_?className@Group@osg@@UEBAPEBDXZ)
+      "__declspec(dllimport) public: virtual char const * __cdecl osgViewer::Viewer::className(void)const " (__imp_?className@Viewer@osgViewer@@UEBAPEBDXZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual char const * __cdecl osgGA::GUIEventHandler::libraryName(void)const " (__imp_?libraryName@GUIEventHandler@osgGA@@UEBAPEBDXZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual char const * __cdecl osg::Group::libraryName(void)const " (__imp_?libraryName@Group@osg@@UEBAPEBDXZ)
+      "__declspec(dllimport) public: virtual char const * __cdecl osgViewer::Viewer::libraryName(void)const " (__imp_?libraryName@Viewer@osgViewer@@UEBAPEBDXZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual bool __cdecl osgGA::GUIEventHandler::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@GUIEventHandler@osgGA@@UEBA_NPEBVObject@osg@@@Z)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual bool __cdecl osg::Group::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@Group@osg@@UEBA_NPEBVObject@2@@Z)
+      "__declspec(dllimport) public: virtual bool __cdecl osgViewer::Viewer::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@Viewer@osgViewer@@UEBA_NPEBVObject@osg@@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgGA::GUIEventHandler::clone(class osg::CopyOp const &)const " (__imp_?clone@GUIEventHandler@osgGA@@UEBAPEAVObject@osg@@AEBVCopyOp@4@@Z)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual class osg::Object * __cdecl osg::Group::clone(class osg::CopyOp const &)const " (__imp_?clone@Group@osg@@UEBAPEAVObject@2@AEBVCopyOp@2@@Z)
+      "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgViewer::Viewer::clone(class osg::CopyOp const &)const " (__imp_?clone@Viewer@osgViewer@@UEBAPEAVObject@osg@@AEBVCopyOp@4@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgGA::GUIEventHandler::cloneType(void)const " (__imp_?cloneType@GUIEventHandler@osgGA@@UEBAPEAVObject@osg@@XZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual class osg::Object * __cdecl osg::Group::cloneType(void)const " (__imp_?cloneType@Group@osg@@UEBAPEAVObject@2@XZ)
+      "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgViewer::Viewer::cloneType(void)const " (__imp_?cloneType@Viewer@osgViewer@@UEBAPEAVObject@osg@@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl osgGA::GUIEventHandler::GUIEventHandler(void)" (__imp_??0GUIEventHandler@osgGA@@QEAA@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual bool __cdecl osgGA::EventHandler::run(class osg::Object *,class osg::Object *)" (__imp_?run@EventHandler@osgGA@@UEAA_NPEAVObject@osg@@0@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osgGA::EventHandler const * __cdecl osgGA::EventHandler::asEventHandler(void)const " (__imp_?asEventHandler@EventHandler@osgGA@@UEBAPEBV12@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osgGA::EventHandler * __cdecl osgGA::EventHandler::asEventHandler(void)" (__imp_?asEventHandler@EventHandler@osgGA@@UEAAPEAV12@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osg::DrawableEventCallback const * __cdecl osgGA::EventHandler::asDrawableEventCallback(void)const " (__imp_?asDrawableEventCallback@EventHandler@osgGA@@UEBAPEBVDrawableEventCallback@osg@@XZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual class osg::DrawableEventCallback * __cdecl osg::DrawableEventCallback::asDrawableEventCallback(void)" (__imp_?asDrawableEventCallback@DrawableEventCallback@osg@@UEAAPEAV12@XZ)
+      "__declspec(dllimport) public: virtual class osg::DrawableEventCallback const * __cdecl osg::DrawableEventCallback::asDrawableEventCallback(void)const " (__imp_?asDrawableEventCallback@DrawableEventCallback@osg@@UEBAPEBV12@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osg::DrawableEventCallback * __cdecl osgGA::EventHandler::asDrawableEventCallback(void)" (__imp_?asDrawableEventCallback@EventHandler@osgGA@@UEAAPEAVDrawableEventCallback@osg@@XZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual class osg::DrawableEventCallback * __cdecl osg::DrawableEventCallback::asDrawableEventCallback(void)" (__imp_?asDrawableEventCallback@DrawableEventCallback@osg@@UEAAPEAV12@XZ)
+      "__declspec(dllimport) public: virtual class osg::DrawableEventCallback const * __cdecl osg::DrawableEventCallback::asDrawableEventCallback(void)const " (__imp_?asDrawableEventCallback@DrawableEventCallback@osg@@UEBAPEBV12@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osg::NodeCallback const * __cdecl osgGA::EventHandler::asNodeCallback(void)const " (__imp_?asNodeCallback@EventHandler@osgGA@@UEBAPEBVNodeCallback@osg@@XZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual class osg::NodeCallback * __cdecl osg::NodeCallback::asNodeCallback(void)" (__imp_?asNodeCallback@NodeCallback@osg@@UEAAPEAV12@XZ)
+      "__declspec(dllimport) public: virtual class osg::NodeCallback const * __cdecl osg::NodeCallback::asNodeCallback(void)const " (__imp_?asNodeCallback@NodeCallback@osg@@UEBAPEBV12@XZ)
+main.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual class osg::NodeCallback * __cdecl osgGA::EventHandler::asNodeCallback(void)" (__imp_?asNodeCallback@EventHandler@osgGA@@UEAAPEAVNodeCallback@osg@@XZ)
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: virtual class osg::NodeCallback * __cdecl osg::NodeCallback::asNodeCallback(void)" (__imp_?asNodeCallback@NodeCallback@osg@@UEAAPEAV12@XZ)
+      "__declspec(dllimport) public: virtual class osg::NodeCallback const * __cdecl osg::NodeCallback::asNodeCallback(void)const " (__imp_?asNodeCallback@NodeCallback@osg@@UEBAPEBV12@XZ)
+D:\各类工作文件\ssz\毕业设计\项目\test\x64\Release\test.exe : fatal error LNK1120: 28 个无法解析的外部命令
